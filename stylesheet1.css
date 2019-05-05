@@ -1,0 +1,30 @@
+/* for desktop */
+@media screen and (min-width: 600px){
+  .cover{
+    background-image: linear-gradient(-20deg, #0f329b 45%, #58c3d8 0);
+    height:150px;
+  }
+
+  .profile-pic{
+    border-radius: 50%;
+    max-width: 200px;
+    display: block;
+    position: relative;
+    top:-30px;
+
+  }
+
+  .intro-flex{
+    display: flex;
+    flex: auto;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    width: 600px;
+  }
+
+}
+/* for mobile*/
+@media screen and (max-width: 600px){
+
+}
