@@ -15,12 +15,36 @@
   }
 
   .intro-flex{
+
     display: flex;
-    flex: auto;
-    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     z-index: 1;
-    width: 600px;
+    height: 212px;
+    padding: 10px;
+  }
+
+  .intro-container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .intro-desc > div{
+    width:700px;
+  }
+  .user-name{
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .user-detail{
+    padding-top: 5px;
+  }
+  hr{
+    border-width: medium;
+    border-color: black;
+    display: block;
   }
 
 }
