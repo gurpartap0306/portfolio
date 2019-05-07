@@ -80,7 +80,12 @@
 }
 /* for mobile*/
 @media screen and (max-width: 600px){
-html{
+body::before{
+  content: "this site doesnot support mobile view. open in desktop";
+  font-size: 2em;
+  color: red;
+}
+section{
   display: none;
 }
 }
