@@ -1,4 +1,5 @@
-.gen-flex{
+@media screen and (min-width:600px){
+  .gen-flex{
 display: flex;
 flex-direction: column;
 justify-content:center;
@@ -18,16 +19,18 @@ width: inherit;
 text-align: center;
 }
 
-.gen-hr{
-  top:10px;
+.hr{
+  top:-10px;
   position: relative;
-  border-left-width: 600px;
 }
 .sub-gen-flex{
 display: flex;
 flex-direction: row;
 align-items: stretch;
 width: 740px;
+height:200px;
+position: relative;
+left: 30px;
 }
 
 .gen-pic{
@@ -51,7 +54,7 @@ margin-left: ;
 font-size: 1.5em;
 }
 .hr{
-  width: 200px;
+  width: 600px;
 }
 
 .gen-hr{
@@ -63,6 +66,8 @@ font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-.p1{
-
+.P1{
+  position: relative;
+  top: -10px;
+}
 }
