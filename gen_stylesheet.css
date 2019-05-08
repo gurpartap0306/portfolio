@@ -1,0 +1,68 @@
+.gen-flex{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: ;
+width: 950px;
+margin-left:auto;
+margin-right: auto;
+position: relative;
+top: 30px;
+
+}
+
+.H1{
+font-size: 2em;
+font-weight: bold;
+width: inherit;
+text-align: center;
+}
+
+.gen-hr{
+  top:10px;
+  position: relative;
+  border-left-width: 600px;
+}
+.sub-gen-flex{
+display: flex;
+flex-direction: row;
+align-items: stretch;
+width: 740px;
+}
+
+.gen-pic{
+  width:150px;
+  display: block;
+  position: relative;
+  top: -10px;
+  border-radius: 50%;
+
+}
+
+.sub2-gen-flex{
+display: flex;
+flex-direction: column;
+position:relative;
+width: auto;
+margin-left: ;
+}
+
+.H2{
+font-size: 1.5em;
+}
+.hr{
+  width: 200px;
+}
+
+.gen-hr{
+  border-width: thin;
+  border-color: blue;
+  display: block;
+  position: relative;
+  top: -10px;
+  margin-bottom: 10px;
+}
+
+.p1{
+
+}
